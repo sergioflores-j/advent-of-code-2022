@@ -15,11 +15,11 @@ export const getChallengeInput = (input: string[]): number[][] => {
 };
 
 const run = (
-  elfsFoodList: number[][]
+  elvesFoodList: number[][]
 ): { mostCalories: number; totalTopThree: number } => {
   const totalCaloriesByElf: number[] = [];
 
-  elfsFoodList.forEach(foodList => {
+  elvesFoodList.forEach(foodList => {
     totalCaloriesByElf.push(
       foodList.reduce((total, calorie) => calorie + total, 0)
     );
