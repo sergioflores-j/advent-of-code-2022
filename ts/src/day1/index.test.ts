@@ -1,4 +1,4 @@
-import { getInput, getMockInput } from 'utils';
+import { getInput, getMockInput } from '../utils';
 import run, { getChallengeInput } from '.';
 
 const PATH = `${__dirname}/`;
@@ -8,7 +8,7 @@ describe('day1', () => {
 
   describe('using test input', () => {
     const input = getChallengeInput(getMockInput(PATH));
-    const testPart1Expected = 24000;
+    const testPart1Expected = 15;
     const testPart2Expected = 45000;
 
     it('part1', () => {

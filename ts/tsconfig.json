@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "ts/src",
     "target": "es2017",
     "module": "commonjs",
     "strict": true,
